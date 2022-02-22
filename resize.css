@@ -56,9 +56,6 @@
   .section-two p {
     font-size: 13pt;
   }
-  .section-two hr {
-    width: 80%;
-  }
   .img-container{
     margin-top: 30px;
     justify-content: space-around;
@@ -223,9 +220,6 @@
   .section-two p {
     font-size: 13pt;
   }
-  .section-two hr {
-    width: 80%;
-  }
   .img-container{
     justify-content: center;
     column-gap: 15%;
@@ -370,9 +364,6 @@
   .section-two p {
     font-size: 13pt;
   }
-  .section-two hr {
-    width: 80%;
-  }
   .img-container{
     display: flex;
     flex-direction: row;
@@ -500,9 +491,6 @@
   .section-two p {
     font-size: 15pt;
     margin: 1em;
-  }
-  .section-two hr {
-    width: 5%;
   }
   .img-container{
     display: flex;

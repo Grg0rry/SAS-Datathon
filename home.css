@@ -264,6 +264,12 @@ html, body{
 .section-two p {
   font-family: montserrat;
   color: black;
+  text-align: justify;
+}
+.section-two hr{
+  border: solid #17153C;
+  border-radius: 5px;
+  width: 40px;
 }
 .img-container{
   display: flex;
@@ -283,6 +289,11 @@ html, body{
   text-transform: uppercase;
   font-family: roboto;
   color: black;
+}
+.section-three hr{
+  border: solid #17153C;
+  border-radius: 5px;
+  width: 40px;
 }
 .cards {
   /* display: grid;
