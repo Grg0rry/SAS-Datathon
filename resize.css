@@ -236,8 +236,11 @@
     margin: 0 0 10pt 0;
   }
   .question{
-    padding:6%;
-    /* font-size: 18px; */
+    padding:4%;
+    font-size: 15px;
+  }
+  .answer p{
+    font-size: 15px;
   }
 
   /* Footer */
