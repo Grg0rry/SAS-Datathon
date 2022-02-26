@@ -47,28 +47,17 @@
     padding: 2rem;
     width: 80%;
   }
-  .section-two-left{
-    display: none;
-  }
-  .section-two-right{
-    padding:0;
-    margin:auto;
-    width: 100%;
-  }
   .section-two h1 {
-    /* font-size: 25pt; */
     font-size: 27px;
     margin: 0 0 10pt 0;
   }
   .section-two-description{
-    padding:0;
-    padding-top: 10pt;
+    padding: 10pt 0;
   }
   .section-two p {
     font-size: 16px;
   }
   .logos{
-    height: 100px;
     width:100%;
     column-gap: 5%;
   }
@@ -323,31 +312,20 @@
   /* section-two */
   .section-two {
     padding: 2rem;
-    width: 80%;
-  }
-  .section-two-left{	
-    align-self: center;
-    width: 50%;
-    padding: 0;
-  }
-  .section-two-right{	
-    padding:0;	
-    margin:auto;	
-    width: 100%;	
+    width: 60%;
   }
   .section-two h1 {
     font-size: 30px;
     margin: 0 0 15pt 0;
   }
   .section-two-description{	
-    padding:0;	
-    padding-top: 10pt;	
+    padding: 10pt 0;	
   }
   .section-two p {
     font-size: 17px;
   }
   .logos{
-    height: 100px;	
+    /* height: 100px;	 */
     width:100%;	
     column-gap: 5%;
   }
@@ -532,10 +510,12 @@
     width: 30%;
   }
   .section-two-description{
-    padding: 3em 4em;
+    /* padding: 3em 4em; */
+    padding: 20pt 0;	
   }
   .logos{
-    width: 70%;
+    width:100%;	
+    column-gap: 5%;
   }
   .question{
     padding:2%;

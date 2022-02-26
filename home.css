@@ -268,24 +268,8 @@ html, body{
 /* section-two StyleSheet */
 .section-two {
   margin: auto;
-  padding: 4rem 0;
-  /* padding: 4rem; */
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.section-two-left{
-  width: 30%;
-  padding-left: 4rem;
-  align-self: center;
-}
-.section-two-right{
+  padding: 4rem;
   width: 60%;
-  padding-right: 4rem;
-}
-.section-two-left svg{ 
-  object-fit: cover;
 }
 .section-two h1 {
   font-weight: bold;
@@ -313,11 +297,6 @@ html, body{
 }
 .logos{
   margin-top: 30px;
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between; */
-    /* position: absolute; */
   display:grid;
   grid-template-columns: repeat(3,1fr); 
   align-items: center;
