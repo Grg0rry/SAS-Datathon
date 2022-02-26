@@ -277,6 +277,7 @@ html, body{
 .section-two-left{
   width: 25%;
   padding-left: 4rem;
+  align-self: center;
 }
 .section-two-right{
   width: 60%;
@@ -371,7 +372,7 @@ html, body{
 .card {
   display: grid;
   grid-template-rows: 1fr 15% 1fr;
-  max-width: 15rem;
+  max-width: 14rem;
   padding: 1.5rem;
   background-color: white;
   color: black;
@@ -423,7 +424,7 @@ html, body{
   margin: auto;
   position: relative;
   padding: 4rem;
-  width: 60%;
+  width: 80%;
   z-index: 3;
 }
 .section-four h1 {
@@ -475,6 +476,14 @@ html, body{
 .section-five video{
   border: solid rgb(0,0,0,5%);
 }
+.section-five-bg{
+  height:15vh;
+  width:100%;
+  z-index: 2;
+  background-color: #17153C;
+  position:absolute;
+  bottom:0;
+}
 
 
 /* section-six StyleSheet */
@@ -514,6 +523,9 @@ html, body{
   "left-five middle-five right-five";
   justify-items: center;
   align-items: center;
+}
+.timeline-container-container{
+  display: contents;
 }
 .timeline-top {
   display: flex;
@@ -696,7 +708,6 @@ html, body{
   object-fit: cover;
 }
 .footer-right span{
-  text-align: center;
   /* color: white; */
   color: black;
 }
@@ -713,6 +724,9 @@ html, body{
   justify-content: end;
   width:100%;
   gap: 2%;
+}
+.footer-icons a{
+  display: contents;
 }
 #footer-icon{
   max-width: 5%;
