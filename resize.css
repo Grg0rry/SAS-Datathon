@@ -228,7 +228,7 @@
     padding:4%;
     font-size: 15px;
   }
-  .answer p{
+  .answer p, .answer li{
     font-size: 15px;
   }
 
@@ -485,7 +485,7 @@
     padding:1%;	
     font-size: 13px;	
   }
-  .answer p{
+  .answer p, .answer li{
     font-size: 13px;
   }
   		

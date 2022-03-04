@@ -487,7 +487,9 @@ html, body{
   "left-two middle-two right-two"
   "left-three middle-three right-three"
   "left-four middle-four right-four"
-  "left-five middle-five right-five";
+  "left-five middle-five right-five"
+  "left-six middle-six right-six"
+  "left-seven middle-seven right-seven";
   justify-items: center;
   align-items: center;
 }
@@ -618,7 +620,7 @@ html, body{
   overflow: hidden;
   text-align: left;
 }
-.answer p{
+.answer p, .answer li{
   margin:0;
   font-size: 16px;
 }
