@@ -4,7 +4,7 @@
           hour = minute * 60,
           day = hour * 24;
     
-    var dday = new Date("April 1, 2022 23:59:59").getTime();
+    var dday = new Date("April 6, 2022 23:59:59").getTime();
     x = setInterval(function() {    
         var now = new Date().getTime();
         var distance = dday - now;
